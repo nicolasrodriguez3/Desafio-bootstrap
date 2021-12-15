@@ -22,7 +22,7 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<title>Sitios Nico</title>
+		<title>Universe Studio | Diseño WEB, diseño gráfico y más!</title>
 	</head>
 
 	<body class="">
@@ -203,7 +203,7 @@
 						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4">
 							<i class="bi bi-laptop"></i>
 						</span>
-						<h4>DISEÑO A MEDIDA</h4>
+						<h4 class="m-0">DISEÑO A MEDIDA</h4>
 					</div>
 					<p>
 						Diseños personalizados a medida y de fácil navegación, realizados
@@ -215,7 +215,7 @@
 					<div class="d-flex align-items-center mb-2">
 						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
 							><i class="bi bi-phone"></i></span>
-						<h4>RESPONSIVE DESIGN</h4>
+						<h4 class="m-0">RESPONSIVE DESIGN</h4>
 					</div>
 					<p>
 						Los sitios que diseñamos estan adaptados a diferentes resoluciones
@@ -228,7 +228,7 @@
 						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
 							><i class="bi bi-hdd-stack"></i
 						></span>
-						<h4>DOMINIOS Y HOSTING</h4>
+						<h4 class="m-0">DOMINIOS Y HOSTING</h4>
 					</div>
 					<p>
 						Registramos dominios y realizamos los trámites de contratación del
@@ -240,7 +240,7 @@
 						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
 							><i class="bi bi-arrow-repeat"></i
 						></span>
-						<h4>GESTOR DE CONTENIDOS</h4>
+						<h4 class="m-0">GESTOR DE CONTENIDOS</h4>
 					</div>
 					<p>
 						Actualice su sitio web de forma fácil y sin depender de terceros.
@@ -252,7 +252,7 @@
 						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
 							><i class="bi bi-graph-up-arrow"></i
 						></span>
-						<h4>SEO</h4>
+						<h4 class="m-0">SEO</h4>
 					</div>
 					<p>
 						Nos enfocamos en posicionar su empresa en la web. Realizamos el SEO
@@ -265,7 +265,7 @@
 						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
 							><i class="bi bi-info-circle"></i
 						></span>
-						<h4>SOPORTE Y CAPACITACIÓN</h4>
+						<h4 class="m-0">SOPORTE Y CAPACITACIÓN</h4>
 					</div>
 					<p>
 						Brindamos soporte post venta. Enseñamos a utilizar el gestor de
@@ -288,17 +288,34 @@
 						py-3
 					"
 				>
-					<p class="col-md-4 mb-0 text-white">© 2021 SitiosNico</p>
+
+					<!-- solo visible en xs -->
+					<p
+						class="
+							mb-0
+							mt-2
+							text-white text-center
+							order-3
+							w-100
+							d-block d-sm-none
+						"
+					>
+						© 2021 Universe Studio
+					</p>
+
+					<!-- visible en todo menos en xs -->
+					<p class="col-sm-4 mb-0 text-white d-none d-sm-block">
+						© 2021 Universe Studio
+					</p>
 
 					<a
 						href="#"
 						class="
-							col-md-4
+            fs-2
+							col-sm-4
 							d-flex
 							align-items-center
 							justify-content-center
-							mb-3 mb-md-0
-							me-md-auto
 							link-light
 							text-decoration-none
 						"
@@ -306,7 +323,7 @@
 						<i class="bi bi-bootstrap"></i>
 					</a>
 
-					<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+					<ul class="nav col-sm-4 justify-content-end list-unstyled d-flex fs-4">
 						<li class="ms-3">
 							<a class="text-white" href="#"><i class="bi bi-twitter"></i></a>
 						</li>
