@@ -6,6 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
 			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
 			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
 			crossorigin="anonymous"
@@ -20,6 +24,7 @@
 		<link rel="stylesheet" href="style.css" />
 		<title>Sitios Nico</title>
 	</head>
+
 	<body class="">
 		<!-- INICIO NAVBAR -->
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
@@ -41,13 +46,13 @@
 					id="navbarSupportedContent"
 				>
 					<ul class="navbar-nav me-auto mb-lg-0">
-						<li class="nav-item mr-3">
+						<li class="nav-item me-3">
 							<a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item me-3">
 							<a class="nav-link" href="#">Nosotros</a>
 						</li>
-						<li class="nav-item dropdown">
+						<li class="nav-item dropdown me-3">
 							<a
 								class="nav-link dropdown-toggle"
 								href="#"
@@ -164,12 +169,12 @@
 		<!-- FIN CAROUSEL -->
 
 		<!-- Inicio contenido -->
-		<main class="container my-5">
-			<div class="row d-flex justify-content-between">
+		<main class="container">
+			<div class="row d-flex justify-content-between py-5">
 				<div class="col-md-6">
 					<div class="py-5 px-3">
 						<h2 class="mb-3">
-							20 años de experiencia avalan nuestra reputación
+							20 años de experiencia avalan<span class="text-primary"> nuestra reputación</span>
 						</h2>
 						<p>
 							Brindamos soluciones de comunicación interactiva a medida a través
@@ -189,65 +194,79 @@
 				</div>
 			</div>
 
-			<section class="row my-5 py-5">
-				<div class="col-sm-6 col-lg-4">
-					<span class="logo rounded-circle p-3 bg-primary">
-						<i class="fas fa-desktop"></i>
-					</span>
-					<h3>DISEÑO A MEDIDA</h3>
+			<hr class="pt-1 rounded-pill">
+
+
+			<section class="row py-5">
+				<div class="col-sm-6 col-lg-4 mb-3 px-2">
+					<div class="d-flex align-items-center mb-2">
+						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4">
+							<i class="bi bi-laptop"></i>
+						</span>
+						<h4>DISEÑO A MEDIDA</h4>
+					</div>
 					<p>
 						Diseños personalizados a medida y de fácil navegación, realizados
 						con la última tendencia.
 					</p>
 				</div>
 
-				<div class="col-sm-6 col-lg-4">
-					<span class="logo rounded-circle p-3 bg-primary"
-						><i class="fas fa-mobile-alt"></i
-					></span>
-					<h3>RESPONSIVE DESIGN</h3>
+				<div class="col-sm-6 col-lg-4 mb-3 px-2">
+					<div class="d-flex align-items-center mb-2">
+						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
+							><i class="bi bi-phone"></i></span>
+						<h4>RESPONSIVE DESIGN</h4>
+					</div>
 					<p>
 						Los sitios que diseñamos estan adaptados a diferentes resoluciones
 						de pantallas en computadoras y dispositivos móviles (celulares,
 						tablets).
 					</p>
 				</div>
-				<div class="col-sm-6 col-lg-4">
-					<span class="logo rounded-circle p-3 bg-primary"
-						><i class="far fa-hdd"></i
-					></span>
-					<h3>DOMINIOS Y HOSTING</h3>
+				<div class="col-sm-6 col-lg-4 mb-3 px-2">
+					<div class="d-flex align-items-center mb-2">
+						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
+							><i class="bi bi-hdd-stack"></i
+						></span>
+						<h4>DOMINIOS Y HOSTING</h4>
+					</div>
 					<p>
 						Registramos dominios y realizamos los trámites de contratación del
 						hosting.
 					</p>
 				</div>
-				<div class="col-sm-6 col-lg-4">
-					<span class="logo rounded-circle p-3 bg-primary"
-						><i class="fas fa-sync-alt"></i
-					></span>
-					<h3>GESTOR DE CONTENIDOS</h3>
+				<div class="col-sm-6 col-lg-4 mb-3 px-2">
+					<div class="d-flex align-items-center mb-2">
+						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
+							><i class="bi bi-arrow-repeat"></i
+						></span>
+						<h4>GESTOR DE CONTENIDOS</h4>
+					</div>
 					<p>
 						Actualice su sitio web de forma fácil y sin depender de terceros.
 						Ahorre costos innecesarios.
 					</p>
 				</div>
-				<div class="col-sm-6 col-lg-4">
-					<span class="logo rounded-circle p-3 bg-primary"
-						><i class="fas fa-chart-line"></i
-					></span>
-					<h3>SEO</h3>
+				<div class="col-sm-6 col-lg-4 mb-3 px-2">
+					<div class="d-flex align-items-center mb-2">
+						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
+							><i class="bi bi-graph-up-arrow"></i
+						></span>
+						<h4>SEO</h4>
+					</div>
 					<p>
 						Nos enfocamos en posicionar su empresa en la web. Realizamos el SEO
 						de su sitio web (Optimización para motores de búsqueda, ejemplo:
 						Google).
 					</p>
 				</div>
-				<div class="col-sm-6 col-lg-4">
-					<span class="logo rounded-circle p-3 bg-primary"
-						><i class="fas fa-info-circle"></i
-					></span>
-					<h3>SOPORTE Y CAPACITACIÓN</h3>
+				<div class="col-sm-6 col-lg-4 mb-3 px-2">
+					<div class="d-flex align-items-center mb-2">
+						<span class="logo rounded-circle p-3 bg-primary me-2 fs-4"
+							><i class="bi bi-info-circle"></i
+						></span>
+						<h4>SOPORTE Y CAPACITACIÓN</h4>
+					</div>
 					<p>
 						Brindamos soporte post venta. Enseñamos a utilizar el gestor de
 						contenidos (modificar contenidos, ej: cargar productos, escribir
@@ -256,6 +275,51 @@
 				</div>
 			</section>
 		</main>
+
+		<!-- Inicio Footer -->
+		<div class="container-fluid bg-primary">
+			<div class="container">
+				<footer
+					class="
+						d-flex
+						flex-wrap
+						justify-content-between
+						align-items-center
+						py-3
+					"
+				>
+					<p class="col-md-4 mb-0 text-white">© 2021 SitiosNico</p>
+
+					<a
+						href="#"
+						class="
+							col-md-4
+							d-flex
+							align-items-center
+							justify-content-center
+							mb-3 mb-md-0
+							me-md-auto
+							link-light
+							text-decoration-none
+						"
+					>
+						<i class="bi bi-bootstrap"></i>
+					</a>
+
+					<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+						<li class="ms-3">
+							<a class="text-white" href="#"><i class="bi bi-twitter"></i></a>
+						</li>
+						<li class="ms-3">
+							<a class="text-white" href="#"><i class="bi bi-instagram"></i></a>
+						</li>
+						<li class="ms-3">
+							<a class="text-white" href="#"><i class="bi bi-whatsapp"></i></a>
+						</li>
+					</ul>
+				</footer>
+			</div>
+		</div>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
