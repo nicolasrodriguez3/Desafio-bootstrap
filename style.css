@@ -27,3 +27,8 @@
   color: white;
 
 }
+
+/* carousel en nosotros */
+.altura-carousel-2{
+  max-height: 800px;
+}
