@@ -59,7 +59,11 @@
   min-height: 250px;
   height: 100%;
 }
-
+.card-altura:hover{
+  transform: scale(1.04);
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+  transition: all .3s;
+}
 
 /* SERVICIOS: WEB DESIGN */
 .hero-webdesign{
@@ -111,4 +115,11 @@
 /* CONTACTO */
 .separacion-footer{
   margin-bottom: 100px;
+}
+
+/* PROYECTOS */
+.card:hover{
+  transform: scale(1.04);
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.3);
+  transition: all .3s;
 }
