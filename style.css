@@ -1,3 +1,7 @@
+.universe-logo{
+  width: 170px;
+}
+
 .bg-carousel {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(img/image-from-rawpixel-id-3302019-jpeg.jpg);
@@ -26,6 +30,12 @@
   display: flex;align-items: center;justify-content: center;
   color: white;
 
+}
+.btn-contacto{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.btn-contacto:hover{
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 
 /* NOSOTROS */
@@ -82,6 +92,7 @@
 }
 .item:hover::before{
   content: "Ver más";
+  font-size: 1.5rem;
   display: flex;
   align-items: end;
   position: absolute;

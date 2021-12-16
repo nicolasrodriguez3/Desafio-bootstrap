@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Universe Studio | Diseño WEB, diseño gráfico y más!</title>
+	</head>
+
+	<body class="">
+		<!-- INICIO NAVBAR -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+			<div class="container-md d-flex justify-content-between">
+				<a class="navbar-brand p-0 d-flex align-items-center" href="./index.html"><img src="./img/universe.png" alt="Logo" class="universe-logo"></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-lg-0">
+						<li class="nav-item me-3">
+							<a class="nav-link" aria-current="page" href="./index.html">Home</a>
+						</li>
+						<li class="nav-item me-3">
+							<a class="nav-link" href="./nosotros.html">Nosotros</a>
+						</li>
+						<li class="nav-item dropdown me-3">
+							<a
+								class="nav-link dropdown-toggle "
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Servicios
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li>
+									<a class="dropdown-item " href="./web-design.html">Diseño Web</a>
+								</li>
+								<li><a class="dropdown-item" href="#">Diseño gráfico</a></li>
+								<!-- <li><hr class="dropdown-divider"></li> -->
+								<li><a class="dropdown-item" href="#">Marketing</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="./contacto.html" class="nav-link btn btn-outline-light px-3 text-primary active">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- FIN NAVBAR -->
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h2 class="display-4 fw-bold lh-1 mb-3">¿Necesitas más info?</h2>
+          <p class="col-lg-10 fs-4">Dejanos tus datos y nos pondremos en contacto a la brevedad.</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Juan Perez">
+              <label for="floatingInput">Nombre y apellido</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="info@example.com">
+              <label for="floatingEmail">E-mail</label>
+            </div>
+            <div class="form-floating mb-3">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option selected>Diseño web</option>
+                <option value="1">Diseño gráfico</option>
+                <option value="2">Marketing</option>
+                <option value="3">Otras consultas</option>
+              </select>
+              <label for="floatingSelect">¿Con que tema te ayudamos?</label>
+            </div>
+            
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
+            
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Inicio Footer -->
+<div class="container-fluid bg-primary position-absolute bottom-0">
+  <div class="container">
+    <footer
+      class="
+        d-flex
+        flex-wrap
+        justify-content-between
+        align-items-center
+        py-3
+      "
+    >
+
+      <!-- solo visible en xs -->
+      <p
+        class="
+          mb-0
+          mt-2
+          text-white text-center
+          order-3
+          w-100
+          d-block d-sm-none
+        "
+      >
+        © 2021 Universe Studio
+      </p>
+
+      <!-- visible en todo menos en xs -->
+      <p class="col-sm-4 mb-0 text-white d-none d-sm-block">
+        © 2021 Universe Studio
+      </p>
+
+      <a
+        href="#"
+        class="
+        fs-2
+          col-sm-4
+          d-flex
+          align-items-center
+          justify-content-center
+          link-light
+          text-decoration-none
+        "
+      >
+        <i class="bi bi-bootstrap"></i>
+      </a>
+
+      <ul class="nav col-sm-4 justify-content-end list-unstyled d-flex fs-4">
+        <li class="ms-3">
+          <a class="text-white" href="#"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-white" href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-white" href="#"><i class="bi bi-whatsapp"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
