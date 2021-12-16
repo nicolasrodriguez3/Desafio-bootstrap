@@ -7,7 +7,7 @@
 }
 
 .altura-carousel{
-  height: 400px;
+  height: 600px;
 }
 
 .img-main {
@@ -30,7 +30,7 @@
 
 /* NOSOTROS */
 .altura-carousel-2{
-  max-height: 800px;
+  max-height: 600px;
 }
 
 .img-nosotros {
@@ -46,4 +46,51 @@
 .card-altura{
   min-height: 250px;
   height: 100%;
+}
+
+
+/* SERVICIOS: WEB DESIGN */
+.hero-webdesign{
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(./img/image-from-rawpixel-id-3304308-original.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  min-height: 400px;
+  width: 100%;
+}
+
+.img-webdesign{
+  background:	url(img/image-from-rawpixel-id-3303766-jpeg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+.item{
+  position: relative;
+  height: 200px;
+  
+  background: rgba(13,110,253,.5);
+}
+.item::before{
+  transition: transform .3s;
+  content: "";
+}
+.item:hover::before{
+  content: "Ver más";
+  display: flex;
+  align-items: end;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  padding: .5rem;
+  background: #0d6efd;
+  transform: scale(1.05);
+}
+.underline-none{
+  text-decoration: none;
 }
