@@ -11,7 +11,8 @@
 }
 
 .altura-carousel{
-  height: 600px;
+  height: 100vh;
+  max-height: 600px;
 }
 
 .img-main {
@@ -66,8 +67,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
-  min-height: 400px;
+  height: 100vh;
+  max-height: 500px;
   width: 100%;
 }
 
