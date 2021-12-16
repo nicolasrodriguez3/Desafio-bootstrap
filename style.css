@@ -106,3 +106,8 @@
 .underline-none{
   text-decoration: none;
 }
+
+/* CONTACTO */
+.separacion-footer{
+  margin-bottom: 100px;
+}
